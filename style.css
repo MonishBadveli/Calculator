@@ -3,6 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 100px;
+    font-weight: 900;
 }
 .calculator{
     display: flex;
@@ -13,6 +14,8 @@ body{
     border-radius: 1em;
     padding: 40px;
     width: 425px;
+    font-weight: 900;
+    background-color: gray;
 
 }
 .screen{
@@ -23,6 +26,7 @@ body{
     padding: 20px;
     background-color: beige;
     border-radius: 1em;
+    font-weight: 900;
 }
 .buttons{
     display: flex;
@@ -69,7 +73,10 @@ button{
     border-radius: 10px;
     background-color: burlywood;
 }
-
+.opbuttons
+{
+    background-color:antiquewhite;
+}
 
 
 
