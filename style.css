@@ -79,5 +79,10 @@ button{
 }
 
 
-
+@media (max-width: 600px) {
+    .calculator {
+        width: 90%; /* Adjust to fit smaller screens */
+        padding: 20px;
+    }
+}
 
