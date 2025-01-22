@@ -6,7 +6,8 @@ const divide = document.querySelector('.divide');
 const equal = document.querySelector('.equal');
 const clearButton = document.querySelector('.clear');
 const screenContainer = document.querySelector('.screen');
-
+const screen = document.createElement('h2');
+screenContainer.appendChild(screen);
 
 
 let numberOne = "";
